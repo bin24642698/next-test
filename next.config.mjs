@@ -12,6 +12,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // 添加静态导出配置
+  output: 'export',
 };
 
 export default nextConfig;
